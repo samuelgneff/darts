@@ -10,8 +10,8 @@ Example notebook `examples/07.5-NBEATS-TCN-examples.ipynb`. Note that this is WI
 Initial results show that TCN-NBEATS can meet or exceed NBEATS performance.
 
 TCN-NBEATS with generic stack:\
-<img src="./static/images/nbeats_tcn_generic.png" width = "500" height = "400">
-NBEATS with generic stack:\
+<img src="./static/images/nbeats_tcn_generic.png" width = "500" height = "400">\
+NBEATS with generic stack:
 
 <img src="./static/images/nbeats_generic.png" width = "500" 
 height = "400">
@@ -19,8 +19,8 @@ height = "400">
 However, decomposed results are still in question. It is also possible that the seasonality and trend stacks in the darts implementation of NBEATS may need to be tweaked. Additionally, there is no example pulling out predictions from each stack to view the trend and seasonality components separately.
 
 TCN-NBEATS with decomposed stack:\
-<img src="./static/images/nbeats_tcn_decomp.png" width = "500" height = "400">
-NBEATS with decomposed stack:\
+<img src="./static/images/nbeats_tcn_decomp.png" width = "500" height = "400">\
+NBEATS with decomposed stack:
 
 <img src="./static/images/nbeats_decomp.png" width = "500" 
 height = "400">
