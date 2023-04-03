@@ -108,11 +108,13 @@ class _ResidualBlock(nn.Module):
             self.kernel_size - 1
         )
         x = F.pad(x, (left_padding, 0))
+        print(x.shape)
         x = self.dropout_fn(F.relu(self.conv1(x)))
 
         # second step
         x = F.pad(x, (left_padding, 0))
         x = self.conv2(x)
+        print(x.shape)
         if self.nr_blocks_below < self.num_layers - 1:
             x = F.relu(x)
         x = self.dropout_fn(x)
